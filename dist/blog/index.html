@@ -1,0 +1,1168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="en">
+
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# 
+	                  website: http://ogp.me/ns/website#">
+	    <meta charset="UTF-8">
+	    <title>Chromemote - Blog</title>    
+
+	    <meta name="title"        content="Chromemote - The Google TV Remote Control for Chrome" />
+	    <meta name="copyright"    content="MoteLabs.com - 2014" />
+	    <meta name="email"        content="robert@motelabs.com" />
+	    <meta name="description" content="Chromemote.com - A Better Way To Control Google TV. Chromemote is an extension for the Google Chrome web browser that adds full remote control of any Google TV, directly from within the web browser itself." />
+	    <meta name="keywords" content="Chromemote, Chrome, Google, Google TV, Remote, Wireless, Second Screen, App, Chrome Extension">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- This will remove the Safari web browsers address bar & bookmarks bar giving your web page a native appearance -->
+	    
+	    <meta property="fb:app_id" content="508653672520377" />
+	    <meta property="fb:admins" content="537257174" />  
+	    <meta property="og:title" content="Chromemote - The Google TV Remote Control for Chrome" />
+	    <meta property="og:url" content="http://chromemote.com/" >
+	    <meta property="og:site_name" content="Chromemote.com - The Google TV Remote for Chrome" />
+	    <meta property="og:author" content="537257174" />
+	    <meta property="og:type" content="article" />
+	    <meta property="og:image" content="http://chromemote.com/images/logo_512.png" />
+
+	    <link rel="stylesheet" href="../fonts/Roboto-stylesheet.css" type="text/css" media="all" />
+	    <link rel="stylesheet" href="../css/style_global.css" type="text/css" media="all" />
+
+	    
+
+	    <script type="text/javascript" src="../libs/jquery/jquery-2.1.0.min.js" charset="utf-8"></script>
+	    <script type="text/javascript" src="../libs/jquery/jquery.jcarousel.min.js" charset="utf-8"></script>
+	    <script type="text/javascript" src="../js/index.js" charset="utf-8"></script>
+
+	    <link rel="stylesheet" type="text/css" media="all" href="../libs/bootstrap/css/bootstrap-btn.css" />
+
+	    <link rel="stylesheet" href="../libs/jquery/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" type="text/css" media="all" />
+	    <script type="text/javascript" src="../libs/jquery/jquery-ui/js/jquery-ui-1.10.4.custom.min.js" charset="utf-8"></script>
+	    <script type="text/javascript" src="../libs/jquery/jquery.mobile.custom.min.js" charset="utf-8"></script>
+
+	    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/bhcjclaangpnjgfllaoodflclpdfcegb">
+
+		
+	    <script type="text/javascript">
+			var analyticsFileTypes = ['crx'];
+			var analyticsEventTracking = 'enabled';
+		</script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-30458910-1']);
+		    _gaq.push(['_addDevId', 'i9k95']);
+		        
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+
+	<body id="body_container">	
+		<div id="fb-root"></div>
+	    <script>(function(d, s, id) {
+	            var js, fjs = d.getElementsByTagName(s)[0];
+	            if (d.getElementById(id)) return;
+	            js = d.createElement(s); js.id = id;
+	            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=508653672520377";
+	            fjs.parentNode.insertBefore(js, fjs);
+	        }(document, 'script', 'facebook-jssdk'));
+	    </script>
+	    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	    <div class="wrapper">
+			<!DOCTYPE html>
+		<!-- partials/header.dust -->
+		<header>
+            
+            
+            <div id="header_content" class="">
+            
+                <div class="centering_content">
+                    <nav>
+                        <div id="navMenu">
+                            <div id="nav_menu_btn" class="unselectable">
+                                <div class="nav_menu_btn_line"></div><div class="nav_menu_btn_line"></div><div class="nav_menu_btn_line"></div>
+                            </div>
+                            <div id="social_media_header">
+                                <a href="http://twitter.com/chromemote" target="_blank" id="social_media_header_twitter"></a>
+                                <a href="http://facebook.com/chromemote" target="_blank" id="social_media_header_facebook"></a>
+                                <a href="https://plus.google.com/+Chromemote/" target="_blank" id="social_media_header_gplus"></a>
+                            </div>
+                        </div>
+                        <a class="icon" href="../"><img src="../images/icon.png" alt="Chromemote Icon" /></a>
+                        <ul id="menu">
+
+                            
+                                <li><a class="nav_link " href="../">Home</a></li>
+                                <li><a class="nav_link " href="../faq">FAQ</a></li>
+                                <li><a class="nav_link current" href="../blog">Blog</a></li>
+                                <li><a class="nav_link contribute_header_btn" href="../support-us">Contribute</a></li>
+                            
+                            <br><br>
+                        </ul>
+                        
+                    </nav>
+                </div>
+            </div>
+
+            
+            
+        </header>
+			
+			
+	
+		<div id="secondary_hero">
+                
+            <div class="centering_content">
+                <div id="intro_content">
+                <img class="logo_secondary" src="../images/chromemote.png" alt="Chromemote Logo" />
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        <div id="sub_intro">
+            <div class="centering_content">
+                <h4><span>Blog</span></h4>
+            </div>
+        </div>
+		<!-- MAIN CONTENT -->
+		<div id="main_content">
+			<div class="centering_content">
+                <div id="blog_search_container">
+                	<input class="contribute_form" id="search_input" name="search" type="text" placeholder="Search" disabled>
+                	<div id="blog_year_links">
+                		&nbsp;
+                		<a href="#2015">2015</a>
+                        <a href="#2014">2014</a>
+                		<a href="#2013">2013</a>
+                		<a href="#2012">2012</a>
+                        <a href="../press">Press</a>
+                		<!-- <a href="#">>></a> -->
+                	</div>
+                </div>
+                <div id="blog_roll_container">
+
+                    
+                        
+                            <a id="2015" name="2015"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2015/06/17 10:09">
+                                            <div class="month">Jun</div>
+                                            <div class="day">17</div>                                            
+                                            <div class="year">2015</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/startup-sunset">Startup Sunset</a></div>
+                                </div>
+                                <div class="body"><p>This is one of the toughest things I have had to do. Actually it has taken nearly a year for me to accept that the Chromemote development will not continue. It has been an exciting ride and I have learned so much from both building Chromemote and its users. Although I would like to continue make improvements, the time has come. Initially with Google ending support for the plugin that is the backbone of Chromemote, then with the end of the Google TV platform, it just doesn't make sense to continue this project as-is. For these reasons I have decided to sunset the Chromemote project.</p><p><br></p><p>Throughout the startup journey that Chromemote took me on, I received no shortage of "are you crazy" comments around building anything for the Google TV platform. I had a fate that it wasn't long before every TV would be a smart TV and I was betting on Android. It is nice to see the platform continue on as Android TV, but the differences basically make Chromemote obsolete. I think the remaining feature that could be carried over, would be just simple d-pad controls of a GoogleTV from a Chrome extension. But with the combination of the Google Cast feature on Android TV, it again makes Chromemote obsolete.</p><p><br></p><p>In early 2013, I joined a startup accelerator and began to push my vision of how second screen interaction should work with a new project called Flinger. This project was spawned from the fling feature within Chromemote. After adding this feature to Chromemote, it became obvious to me that discovery and navigation to content should happen on the small screen and the big screen should only be used for watching that content. The whole 10-foot UI idea just isn't always practical. Navigating tedious menus for each individual bits of content with a large keyboard-remote is a pain.</p><p><br></p><p>Just before releasing the initial version of Flinger.co for public beta, a bombshell dropped with the release of the $35 Chromecast. Both Chromemote and Flinger required a $100+ device. The team at Google really hit the nail on the head and must of ran into the same issues and came to similar conclusions as my startup had. It essentially fulfilled my vision for Flinger but implemented at Google scale. We continued development on Flinger.co anyway for about five more months and launched a redesigned version one, but just before I ran out of runway and had to find a job to keep me afloat.&nbsp;</p><p><br></p><p>As I have mentioned in previous posts, I landed at Bouncing Pixel doing web development two years back. During my first year there I was able to keep up with updating&nbsp;<span style="font-family: RobotoLightItalic, Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; line-height: 36px; letter-spacing: 0em;">Chromemote, but i</span><span style="letter-spacing: 0em;">t has just about been a year since the last update. I know that as Google continues to deprecate old tech that Chromemote is built on, it is only going to continue to break down. I want to be transparent with everyone that has supported this project over the years. I just want everyone to know that development on Chromemote has officially ceased.</span></p><p><span style="letter-spacing: 0em;"><br></span></p><p>The Chromemote users that have shared their support and love for this project are really the rocket fuel that kept it going for as long as it did. I didn't make a living, but I did something I truly loved. Chromemote and Flinger took me across the country. These projects won my brother and I multiple awards. A few ironically from Microsoft, although this being targeted at Google users. The feedback and outreach I received from all the users is what I will remember the most about Chromemote. Whenever I am working on a project at work I don't like, I remember the passion and excitement of my Chromemote users. The greatest part of building a startup, profitable or not, is connecting with real users and making their lives better. Even if it was just to make it easier to change whats on TV.</p><p><br></p><p>--</p><p>I have open sourced every bit of code I developed for Chromemote. So if any diehard Chromemote fans want to pick up where I left off. It's all publicly available on my Github account. <a href="http://github.com/RobertDaleSmith/" target="_blank">http://github.com/RobertDaleSmith/</a>&nbsp;</p><p><span style="letter-spacing: 0em;"><br></span></p><p><span style="letter-spacing: 0em;">I want to hear from you. What did you like most about Chromemote? What will you miss? Did you also get a Chromecast and/or Android TV? Feel free to reach out to me anytime. If you want to pick up on development, then even better. Lets talk:&nbsp;</span><span style="font-family: RobotoLightItalic, Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; line-height: 36px; letter-spacing: 0em;"><a href="mailto:robert@chromemote.com">robert@chromemote.com</a></span></p><br>
+<a href="https://twitter.com/RobertDaleSmith" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @RobertDaleSmith</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<script></script>
+
+
+
+
+
+</div>
+                            </div>
+                        
+                            <a id="2014" name="2014"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2014/07/06 02:33">
+                                            <div class="month">Jul</div>
+                                            <div class="day">6</div>                                            
+                                            <div class="year">2014</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/state-of-chromemote">State of Chromemote</a></div>
+                                </div>
+                                <div class="body"><h1 style="font-size:22px;text-align:left;margin:0px;">Passion Project :  Evolution of Chromemote</h1>
+<p>Just when I think the end is near, Chromemote's weekly user count tripled to 33k users. It has been a wild ride over the last two years building Chromemote. The continuous effort to push Chromemote forward took me across the country and taught me many useful lessons along the way.</p>
+<br>
+<p>This all kicked off just over two years ago after a 3DayStartup event. Since then the project led to me getting into two student startup accelerators and winning multiple Imagine Cup awards. Ultimately led to me landing an awesome lead developer position with an interactive design studio called <a href="http://bouncingpixel.com/" target="_blank">Bouncing Pixel</a>, where I get to spend all day building all kinds of cool stuff including my own apps and startup ideas.</p>
+<br>
+<p>At one point I was crazy enough to think I could work on this project full time and quit my job. Despite many awesome users contributing, I was unable to maintain this as a full time effort. I am still dedicated to committing as much time as possible to keeping the Chromemote effort going, but I will need support from Chromemote's users.</p>
+<br>
+<p>This has been a passion project that I want to continue to thrive. For this reason I have decided to open up the source and to enable anyone to contribute by commiting code. Fix bugs, improve performance, add features, and pretty much anything you want to. Push your code back to the public repo and I will merge your changes into the live version. I know there are many people out there that really love Chromemote and with your help we can keep it going.
+</p>
+
+<br>
+<h1 style="font-size:22px;text-align:left;margin:0px;">The End is Near? : Google TV and NPAPI deprecation</h1>
+<p>Although my grand vision of GoogleTV embedded within every smart TV never really took off, I still really excited of the future of the Android platform on televisions. With the announcment of Android TV, many see this as Google TV's death, but I see it as a rebirth. In this spirit I plan to carry over all the Chromemote efforts to support Android TV devices as well.
+  </p><br>
+<p>Why is the end near you may ask? Well Google has officially ended support for the use of NPAPI plugins within Chrome Extensions. Although we started developing Chromemote all the way back in December 2011, it wasn't until Google I/O 2012 that a NPAPI plugin was released to allow Chrome extensions to communicate with Google TV. Some engineers working on Google TV had seen what I was trying to do, and with their help Chromemote was became a reality. Two years later and the plugin has become incompatible with Chrome.</p>
+<br><p>
+	Seeing this coming, I built an alternative way of enabling Chromemote to communicate with Google TV devices. This new solution using the Chromemote AnyMote Bridge is less eligant than using the NPAPI plugin because it requires users to install an actual app on the Google TV before it will work. The development of this being rushed and with limited Google TV devices available for testing, it does have some bugs that need to be worked out.
+</p>
+<br><p>
+	All of the source code for the Chrome extension and the Google TV bridge app are available on our <a href="http://github.com/MoteLabs" target="_blank">github page</a>. If you want to get involved, then don't hessitate to pull the code and to hit <a href="http://twitter.com/RobertDaleSmith" target="_blank">me up anytime</a>.
+</p>
+<br>
+<h1 style="font-size:22px;text-align:left;margin:0px;">The Future : Android and Android TV</h1>
+<p>I have nearly completed porting the Chromemote experience to an Android app. Because of time restrictions it has been put on hold, but I would love to finish it up if there is actually any demand. So I have set a tip jar goal of $1 for every active user. If I can raise just $1 for every active user, then I will be able to delay any other side projects and focus on finishing Chromemote for Android as well. If this is something you are interested in, then jump over the the <a href="http://www.chromemote.com/support-us/">support-us page</a> to leave a tip in the tip jar.
+  </p><br>
+<p>We are really excited about Android TV and the second screen posibilities that will come along with it. We have already applied to receive an Android TV ADT-1 developer kit. We hope to get as much of a head start as possible with supporting Android TV devices.
+</p><br><p>Code: <a href="http://github.com/MoteLabs/">github.com/MoteLabs</a><br>
+Comments: <a href="http://www.chromemote.com/support-us/">chromemote.com/support-us</a>
+</p>
+<style></style>
+
+<script></script>
+
+
+</div>
+                            </div>
+                        
+                            <a id="2014" name="2014"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2014/03/24 10:55">
+                                            <div class="month">Mar</div>
+                                            <div class="day">24</div>                                            
+                                            <div class="year">2014</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-2-available-now!">Chromemote 2 Available Now!</a></div>
+                                </div>
+                                <div class="body"><p>I'm very happy to announce the launch of Chromemote 2. Just over six months ago I decided to throw out almost all the code and I rebuilt Chromemote from the ground up. This is a result of the combination of the tons of user feedback and every feature I originally imagined.</p>
+<br>
+<p>
+  <b>What's new:</b>
+  <br>- ChromeOS support through new <a href="https://play.google.com/store/apps/details?id=com.motelabs.chromemote.bridge" target="_blank">Anymote Bridge app for Google TV</a>
+  <br>- New User Interface with custom color themes
+  <br>- Rearrangeable, draggable remote buttons
+  <br>- Sync installed apps list with Google TV's
+  <br>- Add custom links and Android intents to apps tab
+  <br>- Sync channel list with Google TV's
+  <br>- Create button macros in channels tab
+  <br>- Full mode has larger touch-pad and has all buttons
+  <br>- New pop-out window mode
+  <br>- Donor activation with ability to disable ads.
+  
+  <br><br>
+  <b>Existing features renewed:</b>
+  <br>- Customizable Google TV remote control
+  <br>- Keyboard and mouse control of Google TV
+  <br>- Right click and fling web links to TV
+  <br>- YouTube video page embedded fling button
+  <br>- Rename connected GTV devices
+  
+  
+  <br>
+</p><br>
+<p>Also a totally new website to go along with the new look and feel of Chromemote. This is all possible with the support from all our Chromemote users that have <a href="http://www.chromemote.com/support-us/">shared their feedback and contributed cash</a>  to help us survive. Chromemote is honor-ware so you pay what you want. Love it and find it useful? Then show us some <a href="http://www.chromemote.com/support-us/"><b> love</b></a> in any way you can. Your help keeps us fine tuning and adding new features.</p>
+<br><br>
+
+<b>Download links:</b>
+<br><br>
+- Chromemote browser extension on the Google Chrome Web Store<br>
+<a href="https://chrome.google.com/webstore/detail/chromemote-remote-for-goo/bhcjclaangpnjgfllaoodflclpdfcegb" target="_blank">https://chrome.google.com/webstore/detail/chromemote-remote-for-goo/bhcjclaangpnjgfllaoodflclpdfcegb</a>
+<br><br>
+- Chromemote Anymote Bridge on the Google Play Store<br>
+<a href="https://play.google.com/store/apps/details?id=com.motelabs.chromemote.bridge" target="_blank">https://play.google.com/store/apps/details?id=com.motelabs.chromemote.bridge</a>
+<br><br>
+
+
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/03/06 01:32">
+                                            <div class="month">Mar</div>
+                                            <div class="day">6</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-v.0.1303.6-changes">Chromemote v.0.1303.6 Changes</a></div>
+                                </div>
+                                <div class="body"><p>
+- Fixed bug related to saving custom button settings.
+<br>- Fixed OnLive app link.
+<br>- Added Amazon Instant, M-GO, and VUDU apps to app launcher.
+<br>- Set the YouTube fling to Google TV button to pause the video and send the current time.
+<br>- Removed and replaced buggy UI animations for improved performance.
+<br>- Corrected PIN dialog box staying open bug on Vizio Costar devices.
+</p><br>
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/Vg1NZHVveas" frameborder="0" allowfullscreen=""></iframe>
+  
+
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/02/28 01:24">
+                                            <div class="month">Feb</div>
+                                            <div class="day">28</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-v.0.1302.28-changes">Chromemote v.0.1302.28 Changes</a></div>
+                                </div>
+                                <div class="body"><p><a style="float:right;" href="http://cdn.rdal.es/images/Edit_Scroll_Button_List.png"><img class="size-medium wp-image-485 aligncenter" alt="Edit Scroll Button List 159x300 Update: Chromemote v.0.1302.28 Changes" src="http://cdn.rdal.es/images/Edit_Scroll_Button_List.png" width="159" height="300" title="Update: Chromemote v.0.1302.28 Changes"></a>
+  - Edit Scroll Buttons List option now enabled.
+  <br>- Right-click menu added to scroll list buttons.
+  <br>- Add, remove, and rearrange scroll button list.
+  <br>- Fixed scroll button bug from previous update.
+  <br>- Individual scroll buttons can be edited.
+  <br>- Enlarged the device menu button in the top menu bar.
+  <br>- Corrected bug with d-pad and added guidelines.
+  <br>- Enabled fling right-click chrome context menu for HTML5 videos.
+  <br>- Enabled fling right-click chrome context menu for audio.
+  <br>- Added an option to check for updates in the about menu.
+  <br>- Added chromemote.com/update for installing updates.
+  <br>- Removed buggy animation sequences to optimize performance.
+  <br>- Chromemote sponsor ad bar added.
+  <br>- Signup for one of our sponsors and support Chromemote at the same time.
+</p>
+<br>
+<iframe width="100%" height="326" src="http://www.youtube.com/embed/dtAyQYYV-TY" frameborder="0" allowfullscreen=""></iframe>
+
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/02/22 01:23">
+                                            <div class="month">Feb</div>
+                                            <div class="day">22</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/google-tv-friends-hangout-with-chromemote">Google TV Friends Hangout with Chromemote</a></div>
+                                </div>
+                                <div class="body"><iframe width="100%" height="315" src="http://www.youtube.com/embed/X8YSwoXsh7k" frameborder="0" allowfullscreen=""></iframe>
+
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/02/13 01:19">
+                                            <div class="month">Feb</div>
+                                            <div class="day">13</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-v.0.1302.13-changes">Chromemote v.0.1302.13 Changes</a></div>
+                                </div>
+                                <div class="body"><p>Chromemote beta update version 0.1302.12 has been pushed out to the Chrome Web Store. +Mike Kendall, requested having a dark background for the Full Tab Mode, so I made it happen in this weeks update. For those that like the lighter background, I added an option in the settings menu to turn off the Lights Out mode. Also changed the behavior of the pin button in the Popup Mode to only open the Full Tab Mode. Also changed the icon to reflect the new behavior. Other than that just a few other minor improvements.</p><br>
+<p style="float: center; text-align: center;"><a href="http://cdn.rdal.es/images/chromemote-lights-out.png"><img class="size-medium wp-image-412" alt="chromemote lights out 243x300 Update: Chromemote v.0.1302.13 Changes" src="http://cdn.rdal.es/images/chromemote-lights-out-243x300.png" width="243" height="300" title="Update: Chromemote v.0.1302.13 Changes"></a></p>
+<ul>
+	<li>- Lights Out Setting added to toggle Full Tab Mode background from light to dark.</li>
+	<li>- Added dark background for Full Tab Mode.</li>
+	<li>- Added Open Full Tab Mode button to Menu Bar</li>
+	<li>- Added Open Full Tab Mode option to Settings.</li>
+	<li>- Added Pin/Unpin option to Settings.</li>
+	<li>- Updated all support buttons to point to updated URL.</li>
+</ul>
+
+
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/02/06 01:17">
+                                            <div class="month">Feb</div>
+                                            <div class="day">6</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1302.6-changes">Chromemote beta v.0.1302.6 Changes</a></div>
+                                </div>
+                                <div class="body"><p>
+ - New logo and website.<br>
+ - Improved remote button hold repeat.<br>
+ - Implemented true remote button hold support to access alternative button fuctions when held.<br>
+ - Locked cursor input now support click and drag/hold.<br>
+ - Touch pad also supports click and drag/hold.<br>
+ - Improved D-pad by adding button hold features.<br>
+ - Mapped keyboard delete button to send Back Button keycode.
+</p>
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/01/30 01:08">
+                                            <div class="month">Jan</div>
+                                            <div class="day">30</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/how-the-houston-startup-community-helped-me-go-to-startup-weekend-hq">How the Houston Startup Community Helped Me Go to Startup Weekend HQ</a></div>
+                                </div>
+                                <div class="body"><p>
+  <b><a href="https://web.archive.org/web/20160401064431/http://startuphouston.com/2012/11/27/uh-student-wins-beaker-prize-needs-travel-budget/">Read the short backstory to this article here.</a></b><br><br>
+</p>
+<a href="http://cdn.rdal.es/images/startuphouston/04.jpg"><img class="alignright" alt="04 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/04-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ" style="float:right;padding-left:20px;"></a>
+
+My name is <a href="http://www.twitter.com/RobertDaleSmith">Robert Dale Smith</a>.&nbsp;I’m the founder of a startup called Mote Labs and I’m a student studying computer science, mathematics, and entrepreneurship at the University of Houston. This is my story of how I discovered the Houston startup community, how it accelerated my entrepreneurial development, and ultimately how it led me to Seattle to hangout with the Startup Weekend <a href="http://startupweekend.org/about/core-team/">core-team</a>.<br><br>
+
+Just a year ago I didn’t even know a startup community existed within Houston. I thought I would have to go somewhere like Silicon Valley in order to be apart of any type of startup culture. Little did I know that there is a vibrant and growing startup community here in Houston with dozens of meet-ups, events, and successful entrepreneurs ready to provide mentorship to local startups.<span id="more-493"></span><br><br>
+
+It all started during the spring break this last year. My brother and I were pulling an all-nighter working on our latest startup idea(<a href="http://www.chromemote.com/">chromemote.com</a>), when I received an email about an upcoming 3DayStartup event happening at UH. I just knew that I had to submit my idea so I immediately submitted an application. Few weeks later I had an interview and was one of forty students selected to participate.<br><br>
+
+The 3DayStartup event was an amazing experience where I was able to learn a lot about launching a startup by actually doing it. I pitched my idea and was able to carry it all the way to the final presentations. Through this event I was able to meet some of the key movers and shakers of the Houston startup community. So many from the Houston startup community came out and their mentorship really made the event transformative.<br><br>
+
+Inspired and motivated, I pushed forward through the summer break with my idea. By mid July, I had succeeded in developing a MVP (Minimum Viable Product) of the idea and launched a public beta. Instantly we had thousands of users sending us feedback and using the application every day. Since then we have acquired over 5,800 active weekly users and over hundred users have voluntarily paid for the unfinished beta version.<br><br>
+
+Captivated by the startup community, I quickly signed up to participate in Startup Weekend Houston in July. During my first startup event I pushed my own idea, so this time I decided to take a different approach and focus on developing someone else’s idea and finding a good team to work with. Once again the experience was truly awesome and the energy of everybody involved is contagious.<br><br>
+
+Afterwards I heard about an opportunity to volunteer to help out with organizing future events. After talking with <a href="https://twitter.com/javidjamae">Javid Jamae</a>, I became involved with helping out with <a href="http://houston.startupweekend.org/">Startup Weekend Houston</a> and the <a href="http://www.meetup.com/leanhouston/">Houston Lean Startup Circle</a>. Through these events and meet-ups I have met so many great individuals that have shared valuable advice and guidance.<br><br>
+
+Towards the end of the summer I had noticed a small photo contest on Startup Weekend’s Facebook page. There were only just a few entries and none of them had actually followed the guidelines. The Startup Weekend Beaker Contest rules were to submit a single photo which contained the Startup Weekend Beaker logo and an inspiring quote to match the photo.<br><br>
+
+I had an idea I thought could win but I procrastinated to act on it until the final day of the contest. The final day I noticed that my idea still may be able to beat the ones posted, so I setup a camera and took the shot of me in front of my workstation. In the photo I had loaded up Startup Weekend logos to show on every screen connected to my laptop and desktop computers. I even wore my Startup Weekend t-shirt I received from the recent Houston event.<br><br>
+
+The quote I included with my entry was adapted from something that a fellow participant said at the 3DayStartup after party. I really liked his comment and it stuck with me. He told me that 3DayStartup wasn’t just a single weekend for him, but rather he lived 3DayStartup everyday. With minutes to spare I submitted my photo along with the quote, “Startup Weekend isn’t just a weekend, ..I live Startup Weekend!”<br><br>
+
+<img class="size-medium wp-image-2610  alignleft" alt="20121122125749 2012 09 01 06.26.252 300x200 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/20121122125749-2012-09-01_06.26.252-300x200.jpg" width="300" height="200" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ" style="float:left;padding-right:20px;">
+
+I received a response from Startup Weekend not long after that stating that I had won the Startup Weekend Beaker Contest and that they showed the photo with the whole office and everybody loved it. I won a weekend stay at the Startup Weekend condo and a chance to visit the Startup Weekend core-team at their main HQ in Seattle. After some excitement I then realized that the prize did not include plane tickets to get there.<br><br>
+
+The cost of plane tickets on short notice was going to be beyond what I could afford. So I requested to visit SW HQ at a later date so that I could find lower cost tickets and to find some way raise the funds needed. During the November Startup Weekend Houston event I started telling <a href="https://twitter.com/fileunderjeff">Jeff Reichman</a> about my dilemma. He quickly offered to pay a substantial part of the costs if I was able to raise the rest.<br><br>
+
+Acting on Jeff’s advice I launched an IndieGoGo campaign, and with the generous help of the Houston Startup community I was able to reach my goal in less than twenty-four hours. Many of the same people that had mentored and inspired me in the beginning, turned out to help make my visit to Startup Weekend HQ possible. Plus many others that simply wish to contribute and give back to the startup community that helped them out as well.<br><br>
+
+<img class="size-medium wp-image-2650 alignright" alt="02 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/02-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ" style="float:left;padding-right:20px;">With the tickets in hand I was able to make it out to Seattle and crossing the Rocky Mountains for the first time.<br><br>
+
+Upon arriving in Seattle I was introduced to a startup called Uber. Thanks to a coupon code I found online I was able to get my first ride from the airport to downtown Seattle for free.<br><br>
+
+The driver brought me to a building matching the SW address but I was not sure I was in the right place. As soon as I went in, the receptionist knew I was in the wrong place and told me to go around to the back of the building.<br><br>
+
+Being in a new city I was a little unsure about this, but as soon as I went around to the back I found a large Startup Weekend beaker etched into the ground. I knew I was in the right place. 😁 <br><br>
+
+As I walked in I circled up a wooden stairway and was immediately greeted by a large whiteboard. The walls were covered with startup related decorations. One of my favorite setups was the Entrepreneur’s Journey.<br><br>
+
+<img class="alignleft" alt="06 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/06-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ" style="float:right;padding-left:20px;">&nbsp;Although I walked into the Startup Weekend HQ in the middle of a busy day, I was warmly welcomed, given a tour, and introduced to all of the Startup Weekend core team members that were working out of the space that day. I quickly realized that Startup Weekend itself is the ultimate startup.<br><br>
+
+<a href="http://twitter.com/gabepelegrin">Gabe</a>, SW’s graphic designer, shared some design tips with me for decorating SW social media pages.&nbsp; <a href="https://twitter.com/thedahv">David</a>, one of SW’s software engineers, shared his startup story with me about how he left Microsoft to follow his passion which led him to Startup Weekend. He even managed to squeeze in some time at the end of the day to play some old school N64 games with me and to tell me more about what he is developing for Startup Weekend.<br><br>
+
+After having lunch with part of the team, I got to sit down with two of the primary founders of Startup Weekend as we know it for a customer development session. On the flight out to Seattle, I read <a href="https://twitter.com/MarcNager">Marc Nager</a>’s and <a href="https://twitter.com/peignoir">Franck Nouyrigat</a>’s book, “Startup Weekend: How to Take a Company From Concept to Creation in 54 Hours”, so I was really excited to speak with them.<br><br>
+
+Marc invited me to the creative room, which has a wall covered with Startup Weekend t-shirts from events from all over the world. I learned a lot about Startup Weekend from his questions. I discovered that I fit their target customer. Initially I thought the primary customers were the participants but it is actually largely the organizers. The volunteer organizers are both the life blood of the organization but also the largest beneficiaries.<br><br>
+
+Being social entrepreneurs, Startup Weekend measures it’s performance not in profits but in it’s positive return to society. We are at the very beginning of an entrepreneurial revolution where the barriers of entry are crumbling and making it easier than ever before for entrepreneurs to launch innovative ideas. Startup Weekend’s vision is to spearhead this revolution by facilitating and speeding up the spread of this revolution in entrepreneurship all over the world.<br><br>
+
+I fit the mold of many of the volunteer organizers. I originally participated in a Startup Weekend event, and inspired by the event I volunteered to help co-organize. Becoming involved with your local Startup Weekend not only helps build and spread entrepreneurship in your community but it also allows you to network and connect with like minded people in the startup community.<br><br>
+
+After sharing my own perspective and opinions about Startup Weekend. I was able to spend some one on one time with Franck and got his feedback on my own project. Since he has a Google TV he immediately understood what I was working on and gave some great tips for taking my idea forward.<br><br>
+
+After spending the entire day hanging out at their office I was even able to get in some time to knock out some actual work I needed to do. Hanging out in their lounge area I found all kinds of interesting distractions.<br><br>
+
+<img class="alignnone size-medium wp-image-2664" alt="16 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/16-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ">&nbsp;<a href="http://cdn.rdal.es/images/startuphouston/15.jpg"><img class="alignnone size-medium wp-image-2663" alt="15 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/15-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a>&nbsp;<img class="alignnone size-medium wp-image-2660" alt="12 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/12-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ">&nbsp;<a href="http://cdn.rdal.es/images/startuphouston/18.jpg"><img class="alignnone size-medium wp-image-2666" alt="18 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/18-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a>&nbsp;<img class="alignnone size-medium wp-image-2662" alt="14 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/14-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ">&nbsp;<img class="alignnone size-medium wp-image-2665" alt="17 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/17-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ">
+<br><br>
+Ended the work day with some sushi and hearing about all kinds of great startup ideas&nbsp; and things I should go see while in Seattle. I spent the evening having a few drinks with a few of the guys from the office and finding out how they ended up in Seattle working with Startup Weekend. Startup Weekend has both an awesome team and a world changing vision for the future. If I lived in Seattle, then I would be putting in an application for employment at the Startup Weekend HQ.<br><br>
+
+As apart of the Beaker contest I won a weekend stay at the Startup Weekend condo. Just a short walking distance from the SW HQ, the condo is used by the frequent visitors and volunteers that work make Startup Weekend possible.<br><br>
+
+<a href="http://cdn.rdal.es/images/startuphouston/19.jpg"><img class="alignnone size-medium wp-image-2667" alt="19 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/19-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a> <a href="http://cdn.rdal.es/images/startuphouston/20.jpg"><img class="alignnone size-medium wp-image-2668" alt="20 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/20-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a><br><br>
+
+I spent the remainder of the weekend walking all over Seattle and visiting everything I could walk to. I made one last stop into the SW office to donate my SW Houston t-shirt to the wall. I made some meaningful connections, learned quit a bit, and experienced life in Seattle for a few days. This was all possible because of the generous contributors to my <a href="http://www.indiegogo.com/startup-weekend-condo-chromemote/x/1744324">IndieGoGo</a> campaign. A special thanks goes out to everybody that contributed to make this possible:<br><br>
+
+<a href="https://twitter.com/fileunderjeff">Jeff Reichman</a>
+<a href="https://twitter.com/javidjamae">Javid Jamae</a>
+<a href="http://www.lorancethompson.com/attorney-directory/associates/katie-sunstrom/">Katie Sunstrom</a>
+<a href="https://twitter.com/wearemolecule">Molecule Software</a>
+<a href="https://twitter.com/Hesam">Hesam Panahi</a>
+<a href="https://twitter.com/BouncingPixel">Jerald Reichstein</a>
+<a href="https://twitter.com/aliciadirago">Alicia DiRago</a>
+<a href="https://twitter.com/DCToedt">D.C. Toedt</a>
+<a href="https://twitter.com/JamesSki">James Wroblewski</a>
+<a href="https://twitter.com/prosperitygal">Michele Price</a>
+<a href="https://twitter.com/coertvoorhees">Coert Voorhees</a>
+<a href="https://twitter.com/DaneWitbeck">Dane Witbeck</a><br><br>
+
+and all those that wanted to remain anonymous.<br><br>
+
+<img alt="03 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/03-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"><a href="http://cdn.rdal.es/images/startuphouston/09.jpg"><img alt="09 225x300 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/09-225x300.jpg" width="225" height="300" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a><a href="http://cdn.rdal.es/images/startuphouston/10.jpg"><img alt="10 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/10-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a><a href="http://cdn.rdal.es/images/startuphouston/08.jpg"><img alt="08 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/08-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"><img alt="05 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/05-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"><img alt="07 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/07-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"><img alt="11 300x225 How the Houston Startup Community Helped Me Go to Startup Weekend HQ" src="http://cdn.rdal.es/images/startuphouston/11-300x225.jpg" width="300" height="225" title="How the Houston Startup Community Helped Me Go to Startup Weekend HQ"></a>
+
+<br><br>
+Originally Posted: <a href="https://web.archive.org/web/20160401064431/http://startuphouston.com/2013/01/30/how-the-houston-startup-community-helped-me-go-to-startup-weekend-hq/">StartupHouston.com</a>
+
+</div>
+                            </div>
+                        
+                            <a id="2013" name="2013"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2013/01/06 01:00">
+                                            <div class="month">Jan</div>
+                                            <div class="day">6</div>                                            
+                                            <div class="year">2013</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1301.6-changes">Chromemote beta v.0.1301.6 Changes</a></div>
+                                </div>
+                                <div class="body"><p>Chromemote beta update version 0.1301.6 has been pushed out to the Chrome Web Store. Many new additions to this update. You can now edit and rearrange remote buttons by right clicking them. Also you can now right click on paired Google TV devices in the device manager and rename or remove them from the list. Many users asked for the ability to press and hold the volume button so I added the ability to hold a button to cause it to send the command repeatedly. Change-log for this weeks update:<br>
+<br>- General optimizations to reduce overall size of Chromemote by 6.2MB.
+<br>- Added ability to click and hold a button to repeat command. Hold button for half a second and continue to hold to auto repeat button presses.
+<br>- Added improvements to maintaining connection with paired devices.
+<br>- Cleaned up the Chromemote settings tab.
+<br>- Enabled the edit remote buttons settings option to launch the edit button dialog box.
+<br>- Added settings option to reset all button options to their defaults.
+<br>- Added settings option to relaunch the initial changelogs welcome message dialog box.
+<br>- Added right click menu to remote buttons to allow you to edit and move buttons around.
+<br>- Added edit menu option to the remote buttons right click menu that launches the button edit dialog box.
+<br>- Added edit button dialog box with options to change each button’s name, sub name, keycode, and icon settings.
+<br>- Added navigation buttons to the edit button dialog box that saves settings and loads the next/previous button into the edit button dialog box.
+<br>- Added arrow buttons to the edit button dialog box to let you quickly change keycodes without opening the dropdown list.
+<br>- Added a full list of available commands and apps to the button edit dialog box.
+<br>- Added ability to add apps to the remote button panels.
+<br>- Added a full list of available icons to the button edit dialog box.
+<br>- Added option to the button edit dialog box to allow you disable or enable the button’s icon and use text label only.
+<br>- Added option to the button edit dialog box to allow you to auto set all default settings assigned to each available keycode command.
+<br>- Added options to the remote button right click menu to allow you to rearrange the buttons by swapping left, right, up, and down.
+<br>- Added right click menu to the device manager.
+<br>- Added rename device dialog box to ease renaming paired GTV devices.
+<br>- Added rename device option to device right click menu.
+<br>- Added remove device option to device right click menu.
+<br>- Added reconnect/pair option to device right click menu.
+<br>- Various improvements and bug fixes to the device manager.
+<br>- Disabled dialogbox scale in/out animation on Windows OS systems to fix a UI bug present on Windows systems.
+<br>- Added right click option to the cursor/touchpad button to open the touch pad.
+<br>- Disabled the touchpad from opening with left click while in the full tabbed mode. Left click will only lock the cursor to the paired GTV.
+<br>- Corrected issues with UI becoming highlighted when using touchpad.
+<br>- Added PayPal subscribe button to allow for recurring payments.
+<br>- Added Amazon and Google Wallet payment options to tip jar.
+<br>- Updated donation button and page to new the virtual Tip Jar.
+<br>- Added injection script to allow for Chromemote.com to detect if installed.
+<br>- Added info on how to Paste Text to Voice/Text Search Dialog boxes.
+<br>- Corrected case-sensitive chrome-extension URLs.
+<br><br>
+<img alt="tumblr inline mg7cux3ryS1r9kc5m Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" src="http://cdn.rdal.es/images/tumblr_inline_mg7cux3ryS1r9kc5m.png" title="Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" width="100%">
+<img alt="tumblr inline mg7cvikz9y1r9kc5m Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" src="http://cdn.rdal.es/images/tumblr_inline_mg7cvikz9y1r9kc5m.png" title="Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" width="100%">
+<img alt="tumblr inline mg7cvxfAKR1r9kc5m Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" src="http://cdn.rdal.es/images/tumblr_inline_mg7cvxfAKR1r9kc5m.png" title="Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" width="100%">
+<img alt="tumblr inline mg7cwyeiER1r9kc5m Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" src="http://cdn.rdal.es/images/tumblr_inline_mg7cwyeiER1r9kc5m.png" title="Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" width="100%"><img alt="tumblr inline mg7cxdgZaH1r9kc5m Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" src="http://cdn.rdal.es/images/tumblr_inline_mg7cxdgZaH1r9kc5m.png" title="Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" width="100%">
+<img alt="tumblr inline mg7cxliIL91r9kc5m Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" src="http://cdn.rdal.es/images/tumblr_inline_mg7cxliIL91r9kc5m.png" title="Chromemote January 2013 Update   Edit and Rearrange Buttons and Rename Google TVs" width="100%"></p>
+
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/12/20 12:43">
+                                            <div class="month">Dec</div>
+                                            <div class="day">20</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/donation-page-replaced-with-a-virtual-tip-jar">Donation Page Replaced with a Virtual Tip Jar</a></div>
+                                </div>
+                                <div class="body"><p>Chromemote’s donation page has been upgraded to a virtual tip jar. I have added several new ways for users to contribute. Several users requested Google Wallet support so I have added the ability to pay through Google Wallet’s support button. Also users requested the ability to make recurring payments, so now you can use the PayPal subscribe button to make monthly donations. <a href="http://www.chromemote.com/tipjar/">http://www.chromemote.com/tipjar/</a></p>
+<img alt="tumblr inline mfgi7cStCl1r9kc5m Donation Page Replaced with a Virtual Tip Jar" src="http://cdn.rdal.es/images/tumblr_inline_mfgi7cStCl1r9kc5m.png" title="Donation Page Replaced with a Virtual Tip Jar" style="width:100%;">
+
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/12/10 00:37">
+                                            <div class="month">Dec</div>
+                                            <div class="day">10</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-norton-antivirus-false-flag-resolved">Chromemote Norton AntiVirus False Flag Resolved</a></div>
+                                </div>
+                                <div class="body"><p>I have some really great news for Norton AntiVirus users. The GTVRemote plugin used by Chromemote is no longer listed as a WS.Reputation.1 Risk. This means that you can now install Chromemote without Norton breaking it. Be sure to run Norton’s LiveUpdate and then reinstall Chromemote from www.chromemote.com or the Chrome Web Store. “The Symantec Insight Dispute team has reviewed your recent submission to the Insight Dispute Submission form Webpage form “Chromemote.” In light of further investigation and analysis Symantec is happy to remove this detection from within its products. Please ensure that your machine reflects the change by running LiveUpdate.” I would love to hear from any users that run Norton and if everything is working now or not. Thanks to everybody for the feedback and support!</p><br><br>
+<img alt="tumblr inline mfgi4hOtXx1r9kc5m Chromemote Norton AntiVirus False Flag Resolved" src="https://cdn.rdal.es/images/tumblr_inline_mfgi4hOtXx1r9kc5m.png" title="Chromemote Norton AntiVirus False Flag Resolved" width="100%">
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/12/02 00:28">
+                                            <div class="month">Dec</div>
+                                            <div class="day">2</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1212.2-changes">Chromemote beta v.0.1212.2 Changes</a></div>
+                                </div>
+                                <div class="body"><span>Chromemote beta update version 0.1212.2 has been pushed out to the Chrome Web Store. Your Chromemote extension should be auto-updating shortly. Be sure to try out the new YouTube.com integrated Fling button on YouTube video pages, and let us know what you think. &nbsp;Here are some notes on changes made since the last release:</span>
+
+<span>What’s New This Update:</span>
+  
+  
+<p></p><br>
+
+- Added integrated YouTube fling button to YouTube pages.<br>
+- Set YouTube fling button to launch video full screen.<br>
+- Set YouTube fling button to launch video at current time.<br>
+- Set YouTube fling button to pause video upon click.<br>
+- Added bottom UI navigation bar with app launcher.<br>
+- Added an app launcher with common apps.<br>
+- Moved button panel navigation arrows to new navigation bar.<br>
+- Expanded the tabbed mode to show all three button panels.<br>
+- Realigned the tabbed mode to center the button panels.<br>
+- Added keyboard enabled Indicator to the menu bar.<br>
+- Added a mouse lock Indicator to the menu bar.<br>
+- Added currently connected device name to the menu bar.<br>
+- Corrected UI bug caused by long device names.<br>
+- Improvements to adding custom device names.<br>
+- Added a keyboard enabled toggle button to remote panel.<br>
+- Text / voice search dialog box Improvements.<br>
+- Popup mode’s voice button now shows only text search.<br>
+- Tabbed mode’s fling button flings previous tab opened.<br>
+- Added new discovery status label to the device manager.<br>
+- Added a plugin incompatible alert for ChromeOS.<br>
+- Added a plugin incompatible alert for Windows 8 app mode.<br>
+- Added a plugin incompatible alert for non-Ubuntu12 Linux.<br>
+- Added a first Install and update notification dialog box.<br>
+- Disabled the selected text fling context menu.<br>
+- Removed the device counter badge indicator.<br>
+- Badge icon is now colored when connected.<br>
+- Badge icon is now greyed when disconnected.<br>
+- Added retry dialog box for when manual device pairing fails.<br>
+- Added a force PIN button to the retry dialog box.<br>
+- Extended the time manual pair waits for a device to respond.<br>
+- Updated the style of the connection status toast bubble.<br><br>
+
+<img alt="tumblr inline mfgf59CxIQ1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf59CxIQ1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;">
+
+<span><img alt="tumblr inline mfgf5oIUo21r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf5oIUo21r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf5wbqIx1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf5wbqIx1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf6oa4nu1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf6oa4nu1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf6ucsBI1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf6ucsBI1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf7b4HCV1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf7b4HCV1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf7iUQWY1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf7iUQWY1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf7on4lB1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf7on4lB1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf7voCPU1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf7voCPU1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf81FgQZ1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf81FgQZ1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf87i9ZK1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf87i9ZK1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf8dcc5C1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf8dcc5C1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf8jeFb41r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf8jeFb41r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf8ovlbF1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf8ovlbF1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf8uCVlF1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf8uCVlF1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf90V1xb1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf90V1xb1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf95ZnjH1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf95ZnjH1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+
+<span><img alt="tumblr inline mfgf9cCZxR1r9kc5m December 2, 2012 Improvements and Updates" src="https://cdn.rdal.es/images/tumblr_inline_mfgf9cCZxR1r9kc5m.png" title="December 2, 2012 Improvements and Updates" style="width:100%;max-width:100%;"></span>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/11/16 00:15">
+                                            <div class="month">Nov</div>
+                                            <div class="day">16</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-live-demo-at-gdg-houston">Chromemote Live Demo at GDG Houston</a></div>
+                                </div>
+                                <div class="body"><p>
+  	<span>I will be giving a guided demo of&nbsp;</span>
+  	<span class="proflinkWrapper">
+    	<span class="proflinkPrefix">+</span><a class="proflink" href="https://web.archive.org/web/20160401064431/https://plus.google.com/107890677565458476428" target="_blank">Chromemote</a>
+  	</span>
+  	<span>&nbsp;at the upcoming Google Developer Group meetup in Houston (</span>
+  	<span class="proflinkWrapper">
+  		<span class="proflinkPrefix">+</span>
+    	<a class="proflink" href="https://web.archive.org/web/20160401064431/https://plus.google.com/107327984577255595926" target="_blank">GDG Houston</a></span><span>). If you are in Houston, then come check out Chromemote, find out why you should get a Google TV, and ask me anything.
+  	</span>
+
+	</p><br><div style="width:100%;text-align:center;"><img alt="tumblr inline mfglxcBCly1r9kc5m Chromemote Live Demo at GDG Houston" src="https://cdn.rdal.es/images/tumblr_inline_mfglxcBCly1r9kc5m.jpg" title="Chromemote Live Demo at GDG Houston" style="max-width:100%;"></div>
+
+<p></p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/11/11 00:25">
+                                            <div class="month">Nov</div>
+                                            <div class="day">11</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1211.5-changes">Chromemote beta v.0.1211.5 Changes</a></div>
+                                </div>
+                                <div class="body"><p>- Added mouse locking to the tabbed mode.<br>
+- Corrected multi-click bug on directional pad.<br>
+- I found out that one of the recent updates to Chrome included the ability to lock the mouse cursor. So I rolled out an update for Chromemote (beta ver 0.1211.5) over the weekend that now includes the ability to lock your cursor to the Google TV. Unfortunately the features is not supported within the Chromemote popup window, but if you go to the pinned/tabbed mode of Chromemote, you can click the cursor button to lock your mouse to the screen. Simple press ESC to return control. I also corrected an issue with the direction pad which caused Chromemote to send multiple commands for a single press.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/11/08 00:23">
+                                            <div class="month">Nov</div>
+                                            <div class="day">8</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/november-update-2012">November Update 2012</a></div>
+                                </div>
+                                <div class="body"><p>I found out that one of the recent updates to Chrome included the ability to lock the mouse cursor. So I rolled out an update for Chromemote (beta ver 0.1211.5) over the weekend that now includes the ability to lock your cursor to the Google TV. Unfortunately the features is not supported within the Chromemote popup window, but if you go to the pinned/tabbed mode of Chromemote, you can click the cursor button to lock your mouse to the screen. Simple press ESC to return control. I also corrected an issue with the direction pad which caused Chromemote to send multiple commands for a single press.</p>
+
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/10/17 00:17">
+                                            <div class="month">Oct</div>
+                                            <div class="day">17</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/fall-updates-&amp;-new-logo-announcement">Fall Updates &amp; New Logo Announcement</a></div>
+                                </div>
+                                <div class="body"><p>Over the past two months we have been rolling out updates for Chromemote, and an updates to the logo and website. We felt it was time to officially announce the recent changes. Chromemote now has a new logo and a matching website. Thanks to the generous support of graphic designer Alex Smith (<a href="https://twitter.com/designalexsmith" target="_blank">@DesignAlexSmith</a>) for volunteering to make the logo and website.
+</p><p align="center"><img alt="tumblr mbxinackDW1r9kc5m Fall Updates &amp; New Logo Announcement " src="https://cdn.rdal.es/images/tumblr_mbxinackDW1r9kc5m.png" title="Fall Updates &amp; New Logo Announcement "></p>
+With the new website we have added the ability to install Chromemote directly from Chromemote.com. Also we added a frequently asked questions section where we will&nbsp;continually be updating it with answers to the most common questions.
+<br><br>
+We have also made several updates to Chromemote itself. First the major change that has been made is with the backend Google TV communication and pairing pairing session. Initially Chromemote had to re-establish a connection every single time the pop-up Chromemote remote was opened.
+<br><br>
+Now we have enabled Chromemote to sustain a connection to a paired Google TV in the background for as long as Chrome is running. This greatly improves connectivity and reduces the pain of having to reconnect every time. Running the communication plugin in the background has enabled the&nbsp;possibility&nbsp;for several new features.<br><br>
+<p align="center"><img alt="tumblr mbxjl43o1T1r9kc5m Fall Updates &amp; New Logo Announcement " src="https://cdn.rdal.es/images/tumblr_mbxjl43o1T1r9kc5m.png" title="Fall Updates &amp; New Logo Announcement "></p><br>
+Many users requested the ability to pin the Chromemote pop-up remote to always stay open, so we made it happen by adding a feature that allows Chromemote to open in a full Chrome pinned tab.
+<p align="center"><img alt="tumblr mbxl1fuvld1r9kc5m Fall Updates &amp; New Logo Announcement " src="https://cdn.rdal.es/images/tumblr_mbxl1fuvld1r9kc5m.png" title="Fall Updates &amp; New Logo Announcement "></p>
+Also now that Chromemote is connected even when the UI is not active, we have been able to make it so much easier to Fling web content from your computer to your Google TV by adding context menus. Right click on web pages, links, images, and even selected text within Chrome to access the new context menu options included with Chromemote. After right clicking a web link, you can simple click Fling to Google TV to have it instantly load up on your TV.<br><br>
+<p align="center"><img alt="tumblr mbxjr82rKW1r9kc5m Fall Updates &amp; New Logo Announcement " src="https://cdn.rdal.es/images/tumblr_mbxjr82rKW1r9kc5m.png" title="Fall Updates &amp; New Logo Announcement "></p><br>
+We went ahead and included the settings UI to give users a glimpse of what is to come. These features are currently under development and will be coming in future updates.<br><br>
+<p align="center"><img alt="tumblr mbxjxopEGe1r9kc5m Fall Updates &amp; New Logo Announcement " src="https://cdn.rdal.es/images/tumblr_mbxjxopEGe1r9kc5m.png" title="Fall Updates &amp; New Logo Announcement "></p><br>
+Several weeks ago all Mac OSX users that updated Chrome to version 22, experienced issues with Chromemote. This was due to changes within Chrome that basically broke the communication plugin used by Chromemote to pair and communicate with Google TV devices.
+<br><br>
+Thankfully with the support of Googler, <a href="https://web.archive.org/web/20160401064431/https://plus.google.com/108944329780009231829/posts" target="_blank">Dave Hawkey</a> and several emails we were able to solve the problem with Google’s GTV Chrome plugin. We owe Mr. Hawkey big time! <img src="http://cdn.rdal.es/images/icon_smile.gif" alt="icon smile Fall Updates &amp; New Logo Announcement " class="wp-smiley" title="Fall Updates &amp; New Logo Announcement ">  If you love Chromemote, then send him your love. Thanks again Dave, you have made many Google TV users very happy!!
+<br><br>
+In the process of solving this issue, it actually solved a larger issue that many users were having. Chromemote is now compatible with more than just the stable version. It now is working with the beta, developer, and canary builds as well. Also now working correctly with builds of Chromium.
+<br><br>
+It was also discovered that the plugin for Linux is only compatible with Ubuntu 12. I am working with Mr. Hawkey to broaden Linux support to more distros and versions of Linux OS’s. Chromemote currently supports Windows, Mac OSX, and Linux (Ubuntu 12).&nbsp;Unfortunately ChromeOS is still not compatible with the plugin used by Chromemote to communicate with Google TVs.
+<br><br>
+Chromemote uses a specially built NPAPI plugin and these sort of plugins are not supported by ChromeOS. We are actively working on an alternative solution that will allow ChromeOS. We are Chromebook users ourselves so we believe this is a really important feature to come in future updates.
+<br><br>
+Within the last week we have made drastic updates to some of the inner programming of Chromemote, in order to insure that we will be able to continue to upload Chromemote updates to the Chrome Web Store.
+<br><br>
+Google is phasing out older Google Chrome extensions that have not been upgraded to the stricter manifest 2 specifications, so we updated and replaced everything in the guts of Chromemote that is being phased out.&nbsp;This has made Chromemote even more secure and will keep Chromemote from being removed from the Chrome Web Store as these older extensions are phased out by Google.
+<br><br>
+Lastly we would like to say THANK YOU! to all of our Chromemote donors and supporters! Everybody that has reached out, made donations, and volunteered time and energy have made this all possible and give use the fuel to keep moving forward with our dreams. It has been a long journey through the process to launch our startup and it wouldn’t be possible without the tremendous support and love from the fans.<p></p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/10/10 00:18">
+                                            <div class="month">Oct</div>
+                                            <div class="day">10</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1210.19-changes">Chromemote beta v.0.1210.19 Changes</a></div>
+                                </div>
+                                <div class="body"><p>Did anyone running Chromemote on the developer build of Google Chrome notice anything funny? lol An animation bug emerged on Chromemote. Thanks to @WinDroidGuy for the bug report, I was able to release an update to fix this problem. Make sure your Chromemote is updated to version 0.1210.19, and please do let me know of any bugs you experience. Working hard to iron out unique issues that occur on different systems.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/10/10 00:17">
+                                            <div class="month">Oct</div>
+                                            <div class="day">10</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1210.11-changes">Chromemote beta v.0.1210.11 Changes</a></div>
+                                </div>
+                                <div class="body"><p>Many backend updates to make Chromemote more secure and improve connectivity. New features and updates include right-click Fling context menus, full-tab remote mode, pinned remote UI, and UI improvements. The ability to pin the remote to stay open came from many user requests. Keep the requests coming so we can continue to build what the users want.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/27 00:06">
+                                            <div class="month">Jul</div>
+                                            <div class="day">27</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/recent-press-and-chromemote-fan-love">Recent Press and Chromemote Fan Love</a></div>
+                                </div>
+                                <div class="body"><p>Review on GigaOm.com:&nbsp;<a href="https://web.archive.org/web/20160401064431/http://gigaom.com/video/cord-cutters-using-chrome-as-a-google-tv-remote/" target="_blank">Cord Cutters Using Chrome As A Google TV Remote</a>
+
+&nbsp;
+
+LifeHacker Love:&nbsp;<a href="http://lifehacker.com/5928415/chromemote-is-a-google-tv-remote-that-lives-in-chrome" target="_blank">Chromemote Is a Google TV Remote That Lives in Chrome</a>
+
+<a href="http://lifehacker.com/5928415/chromemote-is-a-google-tv-remote-that-lives-in-chrome" target="_blank"><img title="" alt="Life Hacker Title 0 Recent Press and Chromemote Fan Love" src="http://cdn.rdal.es/images/Life_Hacker_Title_0.png" width="100%"></a>
+
+AndroidCentral.com Beta Review:&nbsp;<a href="http://www.androidcentral.com/chromemote-offers-better-solution-controlling-your-google-tv" target="_blank">Chromemote offers another solution for controlling your Google TV</a>
+
+<a href="http://www.androidcentral.com/chromemote-offers-better-solution-controlling-your-google-tv" target="_blank"><img title="" alt=" Recent Press and Chromemote Fan Love" src="http://cdn.rdal.es/images/Android_Central_Chromemote.jpeg" width="100%"></a>
+
+<a title="@chromemote WOW, What a Great app you have made!!! Works faster than the Logitech remote!! You guys have a winner here. #GoogleTV by Chromemote, on Flickr" href="https://cdn.rdal.es/images/7635019004_0b9d56183e.jpg" target="_blank"><img alt="7635019004 0b9d56183e Recent Press and Chromemote Fan Love" src="https://cdn.rdal.es/images/7635019004_0b9d56183e.jpg" width="100%" title="Recent Press and Chromemote Fan Love"></a></p>
+
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/22 00:04">
+                                            <div class="month">Jul</div>
+                                            <div class="day">22</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/an-introduction-to-the-chromemote-beta">An Introduction to the Chromemote beta</a></div>
+                                </div>
+                                <div class="body"><iframe width="100%" height="315" src="http://www.youtube.com/embed/oepJdaTqtJs" frameborder="0" allowfullscreen=""></iframe>
+
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/20 00:03">
+                                            <div class="month">Jul</div>
+                                            <div class="day">20</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1207.20-changes">Chromemote beta v.0.1207.20 Changes</a></div>
+                                </div>
+                                <div class="body"><p>Improved pairing process and added ability to manually add Google TV devices. Some networks block the discovery process, so this should help those that could not discover their devices automatically. Also if you manually add a device you can optionally add a custom name. Uninstall and reinstall the updated version for the latest features.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/18 23:55">
+                                            <div class="month">Jul</div>
+                                            <div class="day">18</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-launch-and-user-feedback">Chromemote BETA Launch and User Feedback</a></div>
+                                </div>
+                                <div class="body"><p>The Chromemote BETA has officially launched and is downloadable from the Chrome Web Store.<br><br> <a href="https://chrome.google.com/webstore/detail/bhcjclaangpnjgfllaoodflclpdfcegb/publish-accepted">https://chrome.google.com/webstore/detail/bhcjclaangpnjgfllaoodflclpdfcegb/publish-accepted</a>
+  <br><br>
+  So far the response and feedback has been really great. I really look forward to hearing what everybody thinks. I have been working day and night to continue to make Chromemote even better. Unfortunately there have been a few bugs that testers have been faced with. Please report any problems or request to me through the Chrome Web Store at:
+  <br><br> <a href="https://chrome.google.com/webstore/support/bhcjclaangpnjgfllaoodflclpdfcegb?hl=en&amp;gl=US#bug">https://chrome.google.com/webstore/support/bhcjclaangpnjgfllaoodflclpdfcegb?hl=en&amp;gl=US#bug</a>
+  <br><br> Chromemote was recently featured and reviewed on Gigaom.com’s Cord Cutters series. The response from this article has been fantastic and even inspired AndroidCentral.com to write a story on Chromemote. Check out Chromemote’s recent press at:
+  <br><br><a href="https://web.archive.org/web/20160401064431/http://gigaom.com/video/cord-cutters-using-chrome-as-a-google-tv-remote/">http://gigaom.com/video/cord-cutters-using-chrome-as-a-google-tv-remote/</a></p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/16 23:52">
+                                            <div class="month">Jul</div>
+                                            <div class="day">16</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/cord-cutters-using-chrome-as-a-google-tv-remote">Cord Cutters Using Chrome As A Google TV Remote</a></div>
+                                </div>
+                                <div class="body"><p>Gigaom’s Cord Cutters Reviewed Chromemote</p><br>
+<p>"Still looking for the perfect remote control for your Google TV? How about using your laptop? That’s exactly what a new Chrome extension called Chromemote enables. Check it out!” Gigaom.com</p>
+<br>
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/x2paBoIprbA" frameborder="0" allowfullscreen=""></iframe>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/15 23:52">
+                                            <div class="month">Jul</div>
+                                            <div class="day">15</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-beta-v.0.1207.16-changes">Chromemote beta v.0.1207.16 Changes</a></div>
+                                </div>
+                                <div class="body"><p>The Windows/Linux bug has been sorted out, so you will need to just uninstall and reinstall Chromemote with latest version on the Web Store to correct this issue. Looks like there is an issue with not pairing correctly with some Sony devices. I am doing what I can to get my hands on a Sony Google TV device for testing. Please keep the feedback coming in. I really appreciate everybody helping me test Chromemote. I will be adding the ability to manually add an IP very soon.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/07/06 23:05">
+                                            <div class="month">Jul</div>
+                                            <div class="day">6</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/leap-forward-and-the-pending-public-beta">Leap Forward and the Pending Public BETA</a></div>
+                                </div>
+                                <div class="body"><img src="http://www.chromemote.com/images/posts/tumblr_m7lorrv5811rsh8vzo1_1280.png" style="width:100%;">
+<p>Over the last week I have been able to make leaps forward in progress on the development of Chromemote. I have been dedicated to this vision for quite some time and spent extensive time developing workarounds to enable communication between Google Chrome and Google TV. Then my prayers and dreams were answered last week during Google IO 2012. Thanks to the amazing work of Googlers, Dave Fisher, Paul Saxman, and I am sure many others at Google, I have been able to make the dream of Chromemote a reality.</p><br><p>I have been using it for about a week now and I can’t live without it. I am continually working to improve the user experience and to roll out more features that expand on this unique way of interacting with Google TV. There is still a bit of work to complete as I layout the development roadmap for Chromemote. I couldn’t wait to share this experience with the world so I have submitted a working beta version for everyone brave enough to give it a try. I had hoped to make it available for the 4th of July holiday yesterday but my submission to the Chrome Web Store has been delayed. The delay is due to a special plugin that is required for the Google TV communication to work.</p><br><p>Any Google Chrome extension using this type of plugin is required to have the extension manually reviewed for security reasons. As soon as I am granted permission to publish Chromemote to the Chrome Web Store I will share it on Google Plus. The pairing process in the initial beta release isn’t pretty but once connected Chromemote works really well. I have been able to get the touchpad to work as well as full keyboard support. It is so cool using my computers keyboard and mouse on my Google TV. Sort of like a software KVM but you can see both screens and switch keyboard and mouse very easily. Also I have the ‘Fling’ feature working.</p><br><p>The fling button will instantly send your currently opened tabbed URL to open up on your TV. I am preparing full details about the beta version and instructions on how to use it. Check in on www.chromemote.com/beta for the latest details on the Chromemote beta. Thank you so much for the support from everybody out there that have helped me make this possible. I sincerely appreciate every bit of help and kindness from everyone that has pitched in to kick start Chromemote. I hope to continue to make Chromemote better everyday.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/06/26 23:37">
+                                            <div class="month">Jun</div>
+                                            <div class="day">26</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote.com-is-live-and-progress-update">Chromemote.com is Live and Progress Update</a></div>
+                                </div>
+                                <div class="body"><p>Being a one man-startup can be quite a task. I have made a lot of progress on Chromemote these last few weeks. I have completed a simple introductory website to help everybody learn more about Chromemote, to provide a platform for individuals interested in contributing to Chromemote a voice to be heard. I hope I get many suggestions and theme requests for Chromemote.</p><br><p>Now that the website is launched I will be focusing full time on application development and recruiting developers to speed up the process. Thanks to everybody that have lent me hand and contributed to making Chromemote a reality. Also we have made some breakthroughs in development and I really hope to release a beta version as soon as possible.</p><br>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/06/23 23:35">
+                                            <div class="month">Jun</div>
+                                            <div class="day">23</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote-pre-beta-ui-ux-demo">Chromemote Pre Beta UI UX Demo</a></div>
+                                </div>
+                                <div class="body"><iframe width="100%" height="315" src="http://www.youtube.com/embed/6w_CFpNEwws" frameborder="0" allowfullscreen=""></iframe>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/06/19 23:34">
+                                            <div class="month">Jun</div>
+                                            <div class="day">19</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/chromemote.com-under-construction">Chromemote.com Under Construction</a></div>
+                                </div>
+                                <div class="body"><p>The new Chromemote.com is under construction at the moment. I am just adding the content to the website and it should all be live shortly.</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/04/23 23:16">
+                                            <div class="month">Apr</div>
+                                            <div class="day">23</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/3-day-startup-houston-2012">3 Day Startup Houston 2012</a></div>
+                                </div>
+                                <div class="body"><p>During the Spring of 2012, I was one of forty students that was selected to participate in the first ever 3 Day Startup event to be hosted at the University of Houston. 3 Day Startup gathers the forty most entrepreneurial minded students on-campus together to start tech companies over the course of three days. I had to apply for the program and go through an interview process. I was able to pitch my idea for Chromemote that I had been working on for several months prior to the event, and the interviewers really liked my idea. It wasn’t long before I was accepted to participate.</p><br><p>Almost everybody coming into the event had their own ideas to pitch, but we broke into teams and narrowed it down to just over ten ideas by the evening where we voted for the top five. I pitched my idea to everybody and after the vote count came out Chromemote made the top five. So then I was able to gather a team of developers and business minded people together to spend the rest of the weekend working on my idea. After telling everybody what I needed help with I had four people join my team. The Chromemote team, which was later renamed Mote consisted of developers Ankit Anchila, Eduardo Gerardo Mendizabal, business gurus Rad Elhage, Norris Kwan, and myself the wild-card.</p><br><p>Over the weekend my idea grew into a much larger and broader idea. Initially I was interested in building a highly customizable web-based Google TV remote application. After brainstorming the larger idea of Mote emerged, which is a startup dedicated to creating a universal smart tv remote control web-app. Despite many technical difficulties our team was able to put together a presentable prototype by the final presentation. Our team also got out of the building to focus on market validation. We talked to dozens of potential clients and used all the feedback to further our startup idea.</p><br><p style="width:100%;text-align:center;"><img src="http://www.chromemote.com/images/posts/tumblr_m7lpyxVTED1rsh8vzo1_1280.jpg" width="230" align="center"></p><br><p>On the final day we presented our project to a panel of top-notch entrepreneurs and investors. The feedback and advice we received was priceless. In the end our team was awarded a gold-plated Redbull Award for never giving up and staying up until 6AM in order to put together a proof of concept prototype for the final presentation.</p><p><br><br>
+
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/fDwQ6EiEVuc" frameborder="0" allowfullscreen=""></iframe><br><br>
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/40FXg3wXHik" frameborder="0" allowfullscreen=""></iframe>
+
+<style></style>
+
+<script></script>
+
+
+
+
+</p>
+</div>
+                            </div>
+                        
+                            <a id="2012" name="2012"></a>
+                            <div class="blog_item" id="blog_post_[object Object]">
+                                <div class="head">
+                                    <div class="date_holder">
+                                        <div class="date" title="2012/04/01 23:16">
+                                            <div class="month">Apr</div>
+                                            <div class="day">1</div>                                            
+                                            <div class="year">2012</div>
+                                        </div>
+                                    </div>
+                                    <div class="title"><a href="../blog/hello-world">Hello World</a></div>
+                                </div>
+                                <div class="body"><p>Hello! My name is <a href="http://twitter.com/RobertDaleSmith" target="_blank">Robert</a> and I am the developer working on Chromemote. I would like to share with the world a little bit of what I have been working this year. Chromemote is a highly customizable GoogleTV Remote application that runs as an extension inside of the Google Chrome web browser. Now with Chromemote all your computers running Google Chrome become universal remotes, no matter what operating systems you prefer or work between.</p><br>
+<p>The project initially started as an effort to port the GoogleTV Remote for Android to a Google Chrome Extension for my own personal use. I quickly saw where improvements could be made, so I ended up writing the whole app from scratch. I used only the images from the GoogleTV Remote for Android App as the initial Chromemote skin. Chromemote is still under development and I plan to have the initial public version released this summer.</p><br>
+<b>Chromemote current features in progress:</b><br>
+Control Multiple Devices<br>
+Quickly Switch Between Devices<br>
+Fling Current Tab URL to TV<br>
+Add/Remove Button Panels<br>
+Rearrangeable Buttons<br>
+Edit Button’s Icon/Text/Command<br>
+Custom Button Macros<br>
+Sync User Customizations<br>
+Share User Customizations<br>
+Multiple Default Themes<br>
+Import User Made Skins<br><br>
+<b>Chromemote future features down the pipe:</b><br>
+Firefox Extension<br>
+Mac OSX App<br>
+Windows 8 App<br>
+Integrated TV Guide
+</div>
+                            </div>
+                        
+                    
+                	
+
+                </div>
+
+
+            </div>
+
+		</div>
+
+		<div id="social_media_call_to_action">
+            <div class="centering_content">
+                <div class="social_intro">
+                    <!-- <p class="unable">Unable to contribute?</p> -->
+                    <h1><i>Follow</i> Chromemote!</h1>
+                </div>
+            </div>
+        </div>
+
+			
+			<!DOCTYPE html>
+		<!-- partials/footer.dust -->
+		<div id="social_media">
+            
+            <div class="centering_content">
+                <a class="facebook_div" target="_blank" href="http://www.facebook.com/chromemote" target="_blank">
+                    <h3>Facebook</h3>
+                    <img class="social" src="../images/facebook_big.png" alt="Facebook Icon" />
+                    <p class="social_button_text">
+                        like us<img class="go_button" src="../images/go_button.png" alt="Go button icon" />
+                    </p>
+                    <div id="footer_like_button">
+                        <fb:like href="http://www.facebook.com/chromemote/" send="false" layout="button_count" width="90" show_faces="true"></fb:like>
+                    </div>
+                </a>
+                
+                <a class="twitter_div" target="_blank" href="http://www.twitter.com/chromemote" target="_blank">
+                    <h3>Twitter</h3>
+                    <img class="social" src="../images/twitter_big.png" alt="Twitter Icon" />
+                    <p class="social_button_text">
+                        follow us<img class="go_button" src="../images/go_button.png" alt="Go button icon" />
+                    </p>
+                    <div id="footer_follow_button">
+                        <iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=chromemote&show_count=true&show_screen_name=false" style="height: 20px; width: 92px;" ></iframe>
+                    </div>
+                </a>
+                
+                <a class="googleplus_div" target="_blank" href="https://plus.google.com/+Chromemote/" target="_blank">
+                    <h3>Google+</h3>
+                    <img class="social" src="../images/googleplus_big.png" alt="Google+ Icon" />
+                    <p class="social_button_text">
+                        join our circle<img class="go_button" src="../images/go_button.png" alt="Go button icon" />
+                    </p>
+                    <div id="footer_plus_button">
+                        <g:plusone size="medium" href="https://plus.google.com/107890677565458476428"></g:plusone>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <footer>
+            <div class="centering_content">
+                <a href="http://motelabs.com/"><img class="logo" src="../images/motelabs.png" alt="Mote Labs Logo" /></a>
+                <p><span id="copyright1">Copyright © 2012&nbsp;-&nbsp;2014 Mote&nbsp;Labs.</span> <span id="copyright2">All Rights Reserved.</span> <span id="copyright3">All other trademarks are the property of their respective owners.</span>
+                <span id="copyright4">
+                    <a href="../press/">Press</a>
+                    <a href="http://github.com/MoteLabs/">Dev</a>
+                    <a href="../get-key/">Recover Key</a>
+                    
+                </span></p>
+
+                <!-- <a href="../press" class="footer_link">Press</a> -->
+            </div>
+        </footer>
+
+		</div>
+
+		<a href="https://plus.google.com/111291216195697323432?rel=author"></a>
+	</body>
+
+</html>
+
+
+
+
+
+

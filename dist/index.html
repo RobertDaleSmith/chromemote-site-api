@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="en">
+
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# 
+	                  website: http://ogp.me/ns/website#">
+	    <meta charset="UTF-8">
+	    <title>Chromemote - The Google TV Remote for Chrome</title>    
+
+	    <meta name="title"        content="Chromemote - The Google TV Remote Control for Chrome" />
+	    <meta name="copyright"    content="MoteLabs.com - 2014" />
+	    <meta name="email"        content="robert@motelabs.com" />
+	    <meta name="description" content="Chromemote.com - A Better Way To Control Google TV. Chromemote is an extension for the Google Chrome web browser that adds full remote control of any Google TV, directly from within the web browser itself." />
+	    <meta name="keywords" content="Chromemote, Chrome, Google, Google TV, Remote, Wireless, Second Screen, App, Chrome Extension">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- This will remove the Safari web browsers address bar & bookmarks bar giving your web page a native appearance -->
+	    
+	    <meta property="fb:app_id" content="508653672520377" />
+	    <meta property="fb:admins" content="537257174" />  
+	    <meta property="og:title" content="Chromemote - The Google TV Remote Control for Chrome" />
+	    <meta property="og:url" content="http://chromemote.com/" >
+	    <meta property="og:site_name" content="Chromemote.com - The Google TV Remote for Chrome" />
+	    <meta property="og:author" content="537257174" />
+	    <meta property="og:type" content="article" />
+	    <meta property="og:image" content="http://chromemote.com/images/logo_512.png" />
+
+	    <link rel="stylesheet" href="./fonts/Roboto-stylesheet.css" type="text/css" media="all" />
+	    <link rel="stylesheet" href="./css/style_global.css" type="text/css" media="all" />
+
+	    
+
+	    <script type="text/javascript" src="./libs/jquery/jquery-2.1.0.min.js" charset="utf-8"></script>
+	    <script type="text/javascript" src="./libs/jquery/jquery.jcarousel.min.js" charset="utf-8"></script>
+	    <script type="text/javascript" src="./js/index.js" charset="utf-8"></script>
+
+	    <link rel="stylesheet" type="text/css" media="all" href="./libs/bootstrap/css/bootstrap-btn.css" />
+
+	    <link rel="stylesheet" href="./libs/jquery/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" type="text/css" media="all" />
+	    <script type="text/javascript" src="./libs/jquery/jquery-ui/js/jquery-ui-1.10.4.custom.min.js" charset="utf-8"></script>
+	    <script type="text/javascript" src="./libs/jquery/jquery.mobile.custom.min.js" charset="utf-8"></script>
+
+	    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/bhcjclaangpnjgfllaoodflclpdfcegb">
+
+		
+	    <script type="text/javascript">
+			var analyticsFileTypes = ['crx'];
+			var analyticsEventTracking = 'enabled';
+		</script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-30458910-1']);
+		    _gaq.push(['_addDevId', 'i9k95']);
+		        
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+
+	<body id="body_container">	
+		<div id="fb-root"></div>
+	    <script>(function(d, s, id) {
+	            var js, fjs = d.getElementsByTagName(s)[0];
+	            if (d.getElementById(id)) return;
+	            js = d.createElement(s); js.id = id;
+	            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=508653672520377";
+	            fjs.parentNode.insertBefore(js, fjs);
+	        }(document, 'script', 'facebook-jssdk'));
+	    </script>
+	    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	    <div class="wrapper">
+			<!DOCTYPE html>
+		<!-- partials/header.dust -->
+		<header>
+            
+            
+            <div id="header_content" class="home">
+            
+                <div class="centering_content">
+                    <nav>
+                        <div id="navMenu">
+                            <div id="nav_menu_btn" class="unselectable">
+                                <div class="nav_menu_btn_line"></div><div class="nav_menu_btn_line"></div><div class="nav_menu_btn_line"></div>
+                            </div>
+                            <div id="social_media_header">
+                                <a href="http://twitter.com/chromemote" target="_blank" id="social_media_header_twitter"></a>
+                                <a href="http://facebook.com/chromemote" target="_blank" id="social_media_header_facebook"></a>
+                                <a href="https://plus.google.com/+Chromemote/" target="_blank" id="social_media_header_gplus"></a>
+                            </div>
+                        </div>
+                        <a class="icon" href="./"><img src="./images/icon.png" alt="Chromemote Icon" /></a>
+                        <ul id="menu">
+
+                            
+                                <li><a class="nav_link current" href="./">Home</a></li>
+                                <li><a class="nav_link " href="./faq">FAQ</a></li>
+                                <li><a class="nav_link " href="./blog">Blog</a></li>
+                                <li><a class="nav_link contribute_header_btn" href="./support-us">Contribute</a></li>
+                            
+                            <br><br>
+                        </ul>
+                        
+                    </nav>
+                </div>
+            </div>
+
+            
+            
+        </header>
+			
+			
+		<div id="hero_content">
+                
+            <div class="centering_content">
+
+                <div id="intro_content_wrapper">
+
+                    <div id="intro_content_home">
+                        <p class="introducing">Introducing the new</p>
+                        <img class="logo" src="images/chromemote.png" alt="Chromemote Logo" />
+                        <p class="intro_description">Remotely&nbsp;control Google&nbsp;TV straight&nbsp;from&nbsp;your&nbsp;computer</p>
+                        
+                        <button class="install_button" id="install_button">
+                            <img class="downarrow" src="images/install_button.png" alt="Install Icon" />
+                            <p class="down_button_text">INSTALL NOW</p>
+                        </button>
+
+
+                        <!-- <br>
+                        <button class="install_button" id="install_button" onclick = "window.open('https://chrome.google.com/webstore/detail/bhcjclaangpnjgfllaoodflclpdfcegb','_blank');" style="width:224px;"><div style="display:inline-block; vertical-align:top; line-height:21px; margin-left:-9px;"><img src="http://chromemote.com/wp-content/themes/wp-chromemote-3.0/images/install_button_arrow.png" align="left">&nbsp;&nbsp;&nbsp;INSTALL FREE!</div></button>
+
+                        <br> -->
+                        <a class="web_store" href="https://chrome.google.com/webstore/detail/bhcjclaangpnjgfllaoodflclpdfcegb/publish-accepted">
+                            Available on the Chrome Web Store
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+                <img class="hero_image" src="images/hero_image.png" alt="hero image" />
+                
+            </div>
+            
+        </div>
+        
+        <div id="sub_intro">
+            <div class="centering_content">
+                <a href="https://www.youtube.com/watch?v=Ok0egjv3eCk" target="_blank"><img class="video_image" src="images/video.gif" alt="video placeholder" /></a>
+                <div class="sub_intro_text_wrapper">
+                    <p class="sub_intro_text">Take a look and learn about Chromemote and what it can do!</p>
+                </div>
+            </div>
+        </div>
+		<!-- MAIN CONTENT -->
+		<div id="main_content">
+            
+            <div class="centering_content">
+                
+                
+                <h1>The right way to control TV is here</h1>
+                
+                <p class="secondary_text">
+                    Why fumble through a bunch of clunky remotes when you can use the computer in front of you?
+                </p>
+                
+                <img class="example_image" src="images/example_image.png" alt="Chromemote sending signals to Google TV" />
+                
+                <div class="half_grid">
+                    <p class="body_text">
+                        Chromemote is an extension for the Google Chrome web browser that adds full remote control of any Google TV, directly from within the web browser.
+                    </p>
+                </div>
+                
+                <div class="half_grid">
+                    <p class="body_text">
+                        An easy way to enjoy the TV experience while using a computer. Aside from basic TV controls, you can also send and control content to and from your computer.
+                    </p>
+                </div>                
+                
+            </div>
+            
+        </div>
+        
+        <div id="take_control">
+            
+            <div class="centering_content">
+                
+                <div class="half_grid">
+                    <h1>Take control<br>Fling content to your TV</h1>
+                </div>
+                <div class="half_grid">
+                    <ul class="feature_list">
+                        <li><span class="dot green"></span><p class="body_text">YouTube Videos</p></li>
+                        <li><span class="dot red"></span><p class="body_text">Websites</p></li>
+                        <li><span class="dot blue"></span><p class="body_text">Web Apps</p></li>
+                        <li><span class="dot yellow"></span><p class="body_text">Google TV Apps</p></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="check_it_out">
+            
+            <div class="centering_content">
+                <h1>Check it out</h1>
+
+                <div id="screenshot_carousel">
+                    
+                    <div id="carousel_image_viewport_holder">
+                        <div id="carousel_image_viewport" class="jcarousel">
+                            <ul>
+                                <li><img src="images\screens\ss1.png"></li>
+                                <li><img src="images\screens\ss2.png"></li>
+                                <li><img src="images\screens\ss3.png"></li>
+                                <li><img src="images\screens\ss4.png"></li>
+                                <li><img src="images\screens\ss5.png"></li>
+                                <li><img src="images\screens\ss6.png"></li>
+                                <li><img src="images\screens\ss7.png"></li>
+                                <li><img src="images\screens\ss8.png"></li>
+                                <li><img src="images\screens\ss9.png"></li>
+                                <li><img src="images\screens\ss10.png"></li>
+                                <li><img src="images\screens\ss11.png"></li>
+                                <li><img src="images\screens\ss12.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="carousel_left_btn_holder"><div id="carousel_left_btn"></div></div>
+                    <div id="carousel_right_btn_holder"><div id="carousel_right_btn"></div></div>
+                    <div class="jcarousel-pagination" id="carousel_dots" data-jcarouselpagination="true"></div>
+                </div>
+
+
+            </div>
+            
+        </div>
+        
+        <div id="contribute_banner">
+            
+            <h2>Like the app?</h2>
+            <h3>Support the team by giving back</h3>
+            <a class="contribute_button" href="./support-us">
+                <img class="heart" src="images/heart.png" alt="Contribute Icon" />
+                <p class="button_text">CONTRIBUTE</p>
+            </a>
+            
+        </div>
+		
+		<div id="social_media_call_to_action">
+            <div class="centering_content">
+                <div class="social_intro">
+                    <p class="unable">Unable to contribute?</p>
+                    <h1><i>Share</i> Chromemote with others!</h1>
+                </div>
+            </div>
+        </div>
+
+			
+			<!DOCTYPE html>
+		<!-- partials/footer.dust -->
+		<div id="social_media">
+            
+            <div class="centering_content">
+                <a class="facebook_div" target="_blank" href="http://www.facebook.com/chromemote" target="_blank">
+                    <h3>Facebook</h3>
+                    <img class="social" src="./images/facebook_big.png" alt="Facebook Icon" />
+                    <p class="social_button_text">
+                        like us<img class="go_button" src="./images/go_button.png" alt="Go button icon" />
+                    </p>
+                    <div id="footer_like_button">
+                        <fb:like href="http://www.facebook.com/chromemote/" send="false" layout="button_count" width="90" show_faces="true"></fb:like>
+                    </div>
+                </a>
+                
+                <a class="twitter_div" target="_blank" href="http://www.twitter.com/chromemote" target="_blank">
+                    <h3>Twitter</h3>
+                    <img class="social" src="./images/twitter_big.png" alt="Twitter Icon" />
+                    <p class="social_button_text">
+                        follow us<img class="go_button" src="./images/go_button.png" alt="Go button icon" />
+                    </p>
+                    <div id="footer_follow_button">
+                        <iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=chromemote&show_count=true&show_screen_name=false" style="height: 20px; width: 92px;" ></iframe>
+                    </div>
+                </a>
+                
+                <a class="googleplus_div" target="_blank" href="https://plus.google.com/+Chromemote/" target="_blank">
+                    <h3>Google+</h3>
+                    <img class="social" src="./images/googleplus_big.png" alt="Google+ Icon" />
+                    <p class="social_button_text">
+                        join our circle<img class="go_button" src="./images/go_button.png" alt="Go button icon" />
+                    </p>
+                    <div id="footer_plus_button">
+                        <g:plusone size="medium" href="https://plus.google.com/107890677565458476428"></g:plusone>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <footer>
+            <div class="centering_content">
+                <a href="http://motelabs.com/"><img class="logo" src="./images/motelabs.png" alt="Mote Labs Logo" /></a>
+                <p><span id="copyright1">Copyright © 2012&nbsp;-&nbsp;2014 Mote&nbsp;Labs.</span> <span id="copyright2">All Rights Reserved.</span> <span id="copyright3">All other trademarks are the property of their respective owners.</span>
+                <span id="copyright4">
+                    <a href="./press/">Press</a>
+                    <a href="http://github.com/MoteLabs/">Dev</a>
+                    <a href="./get-key/">Recover Key</a>
+                    
+                </span></p>
+
+                <!-- <a href="./press" class="footer_link">Press</a> -->
+            </div>
+        </footer>
+
+		</div>
+
+		<a href="https://plus.google.com/111291216195697323432?rel=author"></a>
+	</body>
+
+</html>
+
+
+
+
+
+
